@@ -29,7 +29,6 @@ public class Payloads {
 
     public static Map getCreateAirlinePayloadFromMap(String id,String name,String country, String logo,
                                                         String slogan, String head_quarters, String website, String established){
-
         // Similar we can create map also for simple objects
         // and pass the payload as map.
         // Request Specification body method can accept map also.
@@ -38,5 +37,4 @@ public class Payloads {
         payload.put("name","");
     return payload;
     }
-
 }
